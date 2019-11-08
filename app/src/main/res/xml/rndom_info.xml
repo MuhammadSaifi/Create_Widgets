@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:configure="com.example.create_widgets.RndomConfigureActivity"
+    android:initialKeyguardLayout="@layout/rndom"
+    android:initialLayout="@layout/rndom"
+    android:minWidth="110dp"
+    android:minHeight="110dp"
+    android:previewImage="@drawable/example_appwidget_preview"
+    android:resizeMode="horizontal|vertical"
+    android:updatePeriodMillis="1800000"
+    android:widgetCategory="home_screen"></appwidget-provider>
+<!-- line 10 will be the duration of updation means
+  app will be updated automatically after 30 minuts of -->
